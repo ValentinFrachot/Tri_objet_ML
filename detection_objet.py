@@ -29,7 +29,7 @@ count_class_2 = 0
 count_class_3 = 0
 
 # ThingsBoard settings
-THINGSBOARD_TOKEN = "nmRl1OogQbYv9fERSJBw"
+THINGSBOARD_TOKEN = ""
 THINGSBOARD_URL = "https://demo.thingsboard.io/api/v1/" + THINGSBOARD_TOKEN + "/telemetry"
 
 def send_to_thingsboard(c1, c2, c3):
